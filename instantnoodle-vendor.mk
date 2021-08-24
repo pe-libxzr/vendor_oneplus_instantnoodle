@@ -7,6 +7,10 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/oneplus/instantnoodle/proprietary/system_ext/lib64/libCameraMDMHelper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libCameraMDMHelper.so \
+    vendor/oneplus/instantnoodle/proprietary/system_ext/lib64/libcvp_common_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcvp_common_system.so \
+    vendor/oneplus/instantnoodle/proprietary/system_ext/lib64/libcvpcpuRev_skel_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcvpcpuRev_skel_system.so \
+    vendor/oneplus/instantnoodle/proprietary/system_ext/lib64/libsnpe_dsp_domains_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsnpe_dsp_domains_system.so \
+    vendor/oneplus/instantnoodle/proprietary/system_ext/lib64/libsnpe_dsp_domains_v2_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsnpe_dsp_domains_v2_system.so \
     vendor/oneplus/instantnoodle/proprietary/system_ext/lib64/vendor.oneplus.hardware.CameraMDMHIDL@1.0-adapter-helper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.oneplus.hardware.CameraMDMHIDL@1.0-adapter-helper.so \
     vendor/oneplus/instantnoodle/proprietary/system_ext/lib64/vendor.oneplus.hardware.CameraMDMHIDL@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.oneplus.hardware.CameraMDMHIDL@1.0.so \
     vendor/oneplus/instantnoodle/proprietary/system_ext/lib64/vendor.oneplus.hardware.camera@1.0-adapter-helper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.oneplus.hardware.camera@1.0-adapter-helper.so \
